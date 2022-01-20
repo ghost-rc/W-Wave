@@ -36,6 +36,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
 .js-focus-visible :focus:not(.focus-visible) {
   outline: none;
   box-shadow: none;
@@ -392,6 +399,15 @@ body {
   border-radius: 100px;
   width: 30px;
   height: 30px;
+}
+
+.age__text {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--text_gray);
 }
 
 /*Modal login*/
